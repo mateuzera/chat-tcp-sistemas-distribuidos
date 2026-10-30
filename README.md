@@ -12,8 +12,8 @@ Projeto desenvolvido para a disciplina de Redes de Computadores e Sistemas Distr
 ## Sumário
 
 - [Descrição do Projeto](#-descrição-do-projeto)
-- [Funcionalidades Solicitadas](#-funcionalidades-solicitadas)
-- [Como Executar](#-como-executar)
+- [Funcionalidades Solicitadas](#funcionalidades-solicitadas)
+- [Como Executar](#como-executar)
 
 ## Descrição do Projeto
 O objetivo deste trabalho é implementar um sistema de chat multiusuário em tempo real utilizando Sockets TCP. O sistema conta com um servidor persistente que gerencia conexões, retransmite mensagens via broadcast e mantém um buffer de histórico para novos clientes.

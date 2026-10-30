@@ -1,4 +1,4 @@
-# APS - Servidor de Chat Multiusuário (Sockets TCP) - Grupo 11
+# APS 01 - Servidor de Chat Multiusuário (Sockets TCP) - Equipe 11
 
 Projeto desenvolvido para a disciplina de Redes de Computadores e Sistemas Distribuidos.
 

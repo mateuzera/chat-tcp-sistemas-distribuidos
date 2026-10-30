@@ -9,6 +9,12 @@ Projeto desenvolvido para a disciplina de Redes de Computadores e Sistemas Distr
 - Mateus Martins
 - Mateus Barbosa
 
+## Sumário
+
+- [Descrição do Projeto](#-descrição-do-projeto)
+- [Funcionalidades Solicitadas](#-funcionalidades-solicitadas)
+- [Como Executar](#-como-executar)
+
 ## Descrição do Projeto
 O objetivo deste trabalho é implementar um sistema de chat multiusuário em tempo real utilizando Sockets TCP. O sistema conta com um servidor persistente que gerencia conexões, retransmite mensagens via broadcast e mantém um buffer de histórico para novos clientes.
 
@@ -19,9 +25,9 @@ O objetivo deste trabalho é implementar um sistema de chat multiusuário em tem
 - O cliente se conecta e define seu nome usando o comando CONNECT <nome_usuario>.
 - O cliente envia mensagens no chat usando SEND <mensagem>.
 - O servidor deve retransmitir toda mensagem enviada imediatamente para todos os outros conectados.
-- Servidor deve manter um buffer em memória das últimas N mensagens enviadas.
+- O servidor deve manter um buffer em memória das últimas N mensagens enviadas.
 - Quando um novo cliente se conectar, servidor deve enviar o histórico das últimas N mensagens somente para ele.
-- O cliente encerra a conexão através do commando DISCONNECT. 
+- O cliente encerra a conexão através do comando DISCONNECT. 
 
 ## Como Executar
 
@@ -32,19 +38,19 @@ python server.py
 ```
 
 
-Para cada cliente, abra um terminal novo e utilize o comando
+Para cada cliente, abra um terminal novo e utilize o comando:
 
 ```bash
 python client.py
 ```
 
-No cliente, para entrar no chat e escolher o nome do úsuario, utilize:
+No cliente, para entrar no chat e escolher o nome do usuário, utilize:
 
 ```bash
 CONNECT <nome_usuario>
 ```
 
-No cliente que já está dentro do chat, utilize:
+Para enviar mensagens, no cliente que já está dentro do chat, utilize:
 
 ```bash
 SEND <mensagem>

@@ -11,7 +11,7 @@ Projeto desenvolvido para a disciplina de Redes de Computadores e Sistemas Distr
 
 ## Sumário
 
-- [Descrição do Projeto](#-descrição-do-projeto)
+- [Descrição do Projeto](#descrição-do-projeto)
 - [Funcionalidades Solicitadas](#funcionalidades-solicitadas)
 - [Como Executar](#como-executar)
 
